@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Fishackathon App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <!-- Base Tags -->
+    <!-- <base href="http://emranb.elementfx.com/365exp/#!/" /> -->
+    <!-- <base href="http://localhost:2000" /> -->
+    <base href="/"></base>
+  
+  
+    <!-- jQuery -->
+    <script src="/js/jquery/dist/jquery.js"></script>
+  
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- Custom CSS and JS scripts -->
+    <link rel="stylesheet" href="/css/style.css">
+  
+    <!-- Customs Buttons and Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers|Coustard|Monoton|Rajdhani:300|Russo+One" rel="stylesheet">
+  
+    <!-- Tag to remove 'favicon' related error -->
+    <link rel="shortcut icon" href="#" />
+    
+    <!-- Include AngularJS -->
+    <script src="/js/angular/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+      
+    <!-- Include D3JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script> -->
+  
+    <!-- Include Controllers -->
+    <script src="/controllers/index.js"></script>
+    <script src="/controllers/home.js"></script>
+    <script src="/controllers/logCatch.js"></script>
+    <script src="/controllers/viewProfiles.js"></script>
+    <script src="/controllers/data.js"></script>
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="node_modules/datamaps/dist/datamaps.world.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+<div ng-app="app">
+    
+    <div ng-include="'views/navbar.html'" style="width:99vw;"></div>
+    <div class="pageTransition" ng-view></div>
+
+</div>
+
+
+
+
+<!-- Custom Scripts -->
+
+</body>
+</html>
