@@ -1,0 +1,32 @@
+{
+  "name": "fishackathon_2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emranB/fishackathon_2018.git"
+  },
+  "author": "Martha Barrett, Emran Billah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emranB/fishackathon_2018/issues"
+  },
+  "homepage": "https://github.com/emranB/fishackathon_2018#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "bootstrap": "^3.3.7",
+    "datamaps": "^0.5.8",
+    "express": "^4.16.2",
+    "geojson": "^0.5.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2",
+    "nodemon": "^1.14.12",
+    "topojson": "^3.0.2",
+    "topojson-server": "^3.0.0"
+  }
+}
